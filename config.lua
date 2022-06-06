@@ -31,6 +31,7 @@ Config = {
     -- You can enable or disable the Ragdoll keybinding here.
     RagdollEnabled = false,
     RagdollKeybind = 303, -- Get the button number here https://docs.fivem.net/game-references/controls/
+	RagdollAntiXboxKeybind = 42, -- Set this to a button number that has the same Xbox controller input as the value above.
     -- You can disable the Facial Expressions menu here.
     ExpressionsEnabled = true,
     -- You can disable the Walking Styles menu here.
