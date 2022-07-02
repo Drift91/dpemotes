@@ -1,7 +1,7 @@
 Config = {
     -- Change the language of the menu here!.
     -- Note fr and de are google translated, if you would like to help out with translations, feel free to send me an 'issue' on Github.
-    -- Thank you to those who provided the NL and PT languages.
+    -- Thank you to those who provided translations.
     --
 
     MenuLanguage = 'en',
@@ -23,7 +23,7 @@ Config = {
     -- Use a 512 x 128 image!
     -- Note this might cause an issue of the image getting stuck on peoples screens
     CustomMenuEnabled = true,
-    MenuImage = "https://i.imgur.com/vqwCuZg.png", ----[Pride Banner: https://i.imgur.com/vqwCuZg.png. Original banner URL: https://imgur.com/PvMINNO.png ]---
+    MenuImage = "https://i.imgur.com/IRzHWb3.png", ----[Custom banner imgur URLs go here ]---
     -- You can change the menu image by pasting a link above. It must be the same width and length
     --
     -- You can change the menu position here
@@ -53,7 +53,7 @@ Config.KeybindKeys = {
 }
 
 Config.Languages = {
-    ['en'] = { -- ENGLISH
+    ['en'] = { -- English 🇬🇧
         ['emotes'] = 'Emotes 🎬',
         ['danceemotes'] = "🕺 Dance Emotes",
         ['animalemotes'] = "🐩 Animal Emotes",
@@ -102,7 +102,56 @@ Config.Languages = {
         ['keybinds'] = "🔢 Keybinds",
         ['keybindsinfo'] = "Use"
     },
-    ['fr'] = { -- FRENCH
+    ['cs'] = { -- Czech 🇨🇿
+        ['emotes'] = 'Animace 🎬',
+        ['danceemotes'] = "🕺 Taneční Animace",
+        ['animalemotes'] = "🐩 zvířecí Animace",
+        ['propemotes'] = "📦 Animace s předměty",
+        ['favoriteemotes'] = "🌟 Oblíbené",
+        ['favoriteinfo'] = "Vyberte si animaci a nastavte ji jako svou oblíbenou.",
+        ['rfavorite'] = "Obnovit oblíbené",
+        ['prop2info'] = "❓ Pomůcky se mohou nacházet na konci",
+        ['set'] = "Nastavit",
+        ['setboundemote'] = "Nastavit jako vaši animaci?",
+        ['newsetemote'] = "~w~ je nyní vaší novou nastavenou animací. Chcete-li jej použít, stiskněte ~g~CapsLock~w~.",
+        ['cancelemote'] = "Zrušit animaci 🚷",
+        ['cancelemoteinfo'] = "~r~X~w~ Zruší aktuálně přehrávanou animaci",
+        ['walkingstyles'] = "Styly chůze 🚶🏻‍♂️",
+        ['resetdef'] = "Obnovit do základního nastavení",
+        ['normalreset'] = "Neutrální výraz",
+        ['moods'] = "Výrazy 😒",
+        ['infoupdate'] = "Kredity a nápady 🙏🏻",
+        ['infoupdateav'] = "Informace (aktualizace dostupná)",
+        ['infoupdateavtext'] = "Je k dispozici aktualizace, stáhněte si nejnovější verzi z ~y~https://github.com/TayMcKenzieNZ/dpemotes~w~",
+        ['suggestions'] = "Nápady?",
+        ['suggestionsinfo'] = "'TayMcKenzieNZ' na FiveM forums je pro jakýkoliv návrh! ✉️",
+        ['notvaliddance'] = "Není platný tanec.",
+        ['notvalidemote'] = "Není platná animace.",
+        ['nocancel'] = "Žádné animace ke zrušení.",
+        ['maleonly'] = "Tato emoce je pouze pro muže, omlouvám se!",
+        ['emotemenucmd'] = "Použíj /emotemenu pro otevření menu.",
+        ['shareemotes'] = "👫 Sdílené animace",
+        ['shareemotesinfo'] = "Pozvěte osobu v okolí, k tanci",
+        ['sharedanceemotes'] = "🕺 Sdílený tanece",
+        ['notvalidsharedemote'] = "Není platný Sdílený tanec.",
+        ['sentrequestto'] = "Odeslal jsi ~y~ žádost o tanec ",
+        ['nobodyclose'] = "Nikdo ~r~není~w~ v dostatečné blízkosti.",
+        ['doyouwanna'] = "~y~Y~w~ pro příjmutí, ~r~L~w~ pro odmitnutí (~g~",
+        ['refuseemote'] = "Emote odmítnut.",
+        ['makenearby'] = "nechat hráče poblíž hrát",
+        ['camera'] = "Stiskni ~y~G~w~ pro použítí blesku u fotoaparátu.",
+        ['makeitrain'] = "Stiskni ~y~G~w~ pro spuštení deště.",
+        ['pee'] = "Podrž ~y~G~w~ pro čůraní.",
+        ['spraychamp'] = "Podrž ~y~G~w~ pro stříkaní šampaňského",
+        ['stun'] = "Stiskni ~y~G~w~ pro 'použití' paralyzéru.",
+        ['bound'] = "Bound ",
+        ['to'] = "na",
+        ['currentlyboundemotes'] = "Momentálně nastavené animace:",
+        ['notvalidkey'] = "Není platná klávesa.",
+        ['keybinds'] = "🔢 Klávesové Zkratky",
+        ['keybindsinfo'] = "Use"
+    },
+    ['fr'] = { -- French 🇫🇷
         ['emotes'] = 'Emotes 🎬',
         ['danceemotes'] = "🕺 Danses",
         ['animalemotes'] = "🐩 Emotes d'animaux",
@@ -150,7 +199,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Raccourcis clavier",
         ['keybindsinfo'] = "Utilise"
     },
-    ['de'] = { -- GERMAN
+    ['de'] = { -- German 🇩🇪
         ['emotes'] = 'Emotes 🎬',
         ['danceemotes'] = "🕺 Tanz-Emotes",
         ['animalemotes'] = "🐩 Animal Emotes",
@@ -184,7 +233,7 @@ Config.Languages = {
         ['notvalidsharedemote'] = "ist kein gültiges geteiltes Emote.",
         ['sentrequestto'] = "Gesendete Anfrage an ~g~",
         ['nobodyclose'] = "Niemand ist nah genug dran.",
-        ['doyouwanna'] = "~y~Y~w~ zu akzeptieren, ~r~L~w~ zu verweigern (~g~",
+        ['doyouwanna'] = "~y~Z~w~ zu akzeptieren, ~r~L~w~ zu verweigern (~g~",
         ['refuseemote'] = "Emote abgelehnt.",
         ['makenearby'] = "Lässt den Spieler in der Nähe spielen",
         ['camera'] = "Drücken ~y~G~w~ Kamerablitz verwenden.",
@@ -198,7 +247,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Tastenkombinationen",
         ['keybindsinfo'] = "verwenden"
     },
-    ['sv'] = { -- Swedish
+    ['sv'] = { -- Swedish 🇸🇪
         ['emotes'] = 'Emotes 🎬',
         ['danceemotes'] = "🕺 Dans Emotes",
         ['animalemotes'] = "🐩 Animal Emotes",
@@ -246,7 +295,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Keybinds",
         ['keybindsinfo'] = "Använd"
     },
-    ['es'] = { -- Spanish
+    ['es'] = { -- Spanish 🇪🇸
         ['emotes'] = "Animaciones 🎬",
         ['danceemotes'] = "🕺 Bailes",
         ['animalemotes'] = "🐩 Emotes de animales",
@@ -294,7 +343,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Keybinds",
         ['keybindsinfo'] = "Utilizar"
     },
-    ['nl'] = { -- Dutch
+    ['nl'] = { -- Dutch 🇳🇱
         ['emotes'] = 'Animaties 🎬',
         ['danceemotes'] = "🕺 Dans Animaties",
         ['animalemotes'] = "🐩 Dier Animaties",
@@ -343,7 +392,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Keybinds",
         ['keybindsinfo'] = "Gebruik"
     },
-    ['pt'] = { -- Brazilian Portuguese
+    ['pt'] = { -- Brazilian Portuguese 🇧🇷
         ['emotes'] = 'Emotes 🎬',
         ['danceemotes'] = "🕺 Emotes de Danças",
         ['animalemotes'] = "🐩 Emotes de Animais",
@@ -392,7 +441,7 @@ Config.Languages = {
         ['keybinds'] = "🔢 Keybinds",
         ['keybindsinfo'] = "Usar"
     },
-    ['it'] = { -- Italian
+    ['it'] = { -- Italian 🇮🇹
         ['emotes'] = 'Animazioni 🎬',
         ['danceemotes'] = "🕺 Animazioni Di Danza",
         ['animalemotes'] = "🐩 Animazioni Di Animali",
@@ -414,7 +463,7 @@ Config.Languages = {
         ['infoupdateav'] = "Informazioni (Aggiornamento disponibile)",
         ['infoupdateavtext'] = "Un aggiornamento è disponibile, ottieni l'ulima versione qui ~y~https://github.com/TayMcKenzieNZ/dpemotes~w~",
         ['suggestions'] = "Suggerimenti?",
-        ['suggestionsinfo'] = "'dullpear_dev' nei forum di FiveM per suggerimenti su funzionalitá/animazioni! ✉️",
+        ['suggestionsinfo'] = "'TayMcKenzieNZ' nei forum di FiveM per suggerimenti su funzionalitá/animazioni! ✉️",
         ['notvaliddance'] = "non è un ballo valido.",
         ['notvalidemote'] = "non è un'animazione valida.",
         ['nocancel'] = "Nessun'animazione da cancellare.",
@@ -440,5 +489,102 @@ Config.Languages = {
         ['notvalidkey'] = "non è una chiave valida.",
         ['keybinds'] = "🔢 Tasti",
         ['keybindsinfo'] = "Utilizza"
-    }
-}
+    },
+    ['da'] = { -- Danish 🇩🇰
+        ['emotes'] = 'Animationer',
+        ['danceemotes'] = "🕺 Danse Animationer",
+        ['animalemotes'] = "🐩 Dyr Animationer",
+        ['propemotes'] = "📦 Rekvisit Animationer",
+        ['favoriteemotes'] = "🌟 Favorit",
+        ['favoriteinfo'] = "Vælge en animationer her for at sætte den som din favorit.",
+        ['rfavorite'] = "Nulstil Favorit",
+        ['prop2info'] = "❓ Rekvisit emotes findes i slutningen",
+        ['set'] = "Sæt (",
+        ['setboundemote'] = ") til din favorit animationer?",
+        ['newsetemote'] = "~w~ Er nu din favorit animationer, tryk ~g~CapsLock~w~ for at anvende den.",
+        ['cancelemote'] = "Afbryd animationer",
+        ['cancelemoteinfo'] = "~r~X~w~ Anullere din igangværende animationer.",
+        ['walkingstyles'] = "Gågange",
+        ['resetdef'] = "Nulstil til standard",
+        ['normalreset'] = "Normal (Nulstil)",
+        ['moods'] = "Humør 😒",
+        ['infoupdate'] = "Info / opdateringer",
+        ['infoupdateav'] = "Information (Opdatering available)",
+        ['infoupdateavtext'] = "En opdatering er tilgænglig, hent den nyeste version fra ~y~https://github.com/TayMcKenzieNZ/dpemotes~w~",
+        ['suggestions'] = "Forslag?",
+        ['suggestionsinfo'] = "'TayMcKenzieNZ' på FiveM-forum for alle funktioner/emote-forslag! ✉️",
+        ['notvaliddance'] = "er ikke en gyldig dans",
+        ['notvalidemote'] = "er ikke en gyldig emote",
+        ['nocancel'] = "Ingen animationer afspilles lige nu",
+        ['maleonly'] = "Denne animationer virker desværre kun til mænd!",
+        ['emotemenucmd'] = "Skriv /emotemenu for animationer menuen",
+        ['shareemotes'] = "👫 Delte animationer",
+        ['shareemotesinfo'] = "Invitere en spillere i nærheden for afspille animationer",
+        ['sharedanceemotes'] = "🕺 Delete Danse",
+        ['notvalidsharedemote'] = "er ikke en gyldig delt animationer.",
+        ['sentrequestto'] = "Anmodning sendt til ~y~",
+        ['nobodyclose'] = "Ingen ~r~tæt~w~ nok.",
+        ['doyouwanna'] = "~y~Y~w~ for at acceptere, ~r~L~w~ for at nægte (~g~",
+        ['refuseemote'] = "Animationer nægtede.",
+        ['makenearby'] = "får den nærliggende spiller til at spille",
+        ['camera'] = "Tryk ~y~G~w~ for at bruge kamera kameraets blitz.",
+        ['makeitrain'] = "Tryk ~y~G~w~ for at regne med penge.",
+        ['pee'] = "Hold ~y~G~w~ for at tisse.",
+        ['spraychamp'] = "Hold ~y~G~w~ for at sprøjte med champagnen",
+        ['stun'] = "tryk på ~y~G~w~ for at bruge elektrisk pistol.",
+        ['bound'] = "Bundet ",
+        ['to'] = "til",
+        ['currentlyboundemotes'] = " Keybind animationer:",
+        ['notvalidkey'] = "er ikke en gyldigt nøgle.",
+        ['keybinds'] = "🔢 Keybinds",
+        ['keybindsinfo'] = "Brug"
+    },
+	['fi'] = { -- Finnish 🇫🇮
+        ['emotes'] = 'Emotet 🎬',
+        ['danceemotes'] = "🕺 Tanssi Emotet",
+        ['animalemotes'] = "🐩 Eläin Emotet",
+        ['propemotes'] = "📦 Esine Emotet",
+        ['favoriteemotes'] = "🌟 Suosikit",
+        ['favoriteinfo'] = " Valitse emote täältä laittaaksesi sen suosikiksi.",
+        ['rfavorite'] = "Resettaa Suosikin.",
+        ['prop2info'] = "❓ Esine Emotet voivat sijaita lopussa",
+        ['set'] = "Aseta (",
+        ['setboundemote'] = ") on sinun bindattu emote ?",
+        ['newsetemote'] = "w on nyt bindattuna emotesi, paina gCapsLockw käyttääksesi",
+        ['cancelemote'] = "Peru emote 🚷",
+        ['cancelemoteinfo'] = "rXw Peruu meneillään olevan emoten ",
+        ['walkingstyles'] = "Kävelytyylit🚶🏻‍♂️",
+		['resetdef'] = "Resettaa oletuksen",
+		['normalreset'] = "Normaali (Reseettaa)",
+        ['moods'] = "Mielitilat😒",
+        ['infoupdate'] = "Krediitit & Ehdotukset 🙏🏻",
+        ['infoupdateav'] = "Informaatio (Päivitys Saatavilla)",
+        ['infoupdateavtext'] = " Uusin versio saatavilla täältä yhttps://github.com/TayMcKenzieNZ/dpemotes~w~",
+        ['suggestions'] = "Ehdotukset?",
+        ['suggestionsinfo'] = "'TayMcKenzieNZ' Fivem foormueilta mitä vain fiituria/emote ehdotusta! ✉️",
+        ['notvaliddance'] = "Ei ole tanssi.",
+        ['notvalidemote'] = "Ei ole emote.",
+        ['nocancel'] = "Ei ole emotea peruutettavaksi.",
+        ['maleonly'] = "Tämä emote on miehille ainostaan, anteeksi!",
+        ['emotemenucmd'] = "Tee /emotemenu avataksesi emote menun",
+        ['shareemotes'] = "👫 Yhteiset Emotet",
+        ['shareemotesinfo'] = "Kutsu lähin hahmo emoteen ",
+        ['sharedanceemotes'] = "🕺 Yhteiset Tanssit",
+        ['notvalidsharedemote'] = "Ei ole yhteinen tanssi emote.",
+        ['sentrequestto'] = "Lähetä kutsu y",
+        ['nobodyclose'] = "Ei ketään rlähelläw sinua.",
+        ['doyouwanna'] = "yYw hyväksyyksesi, rLw kieltäytyäksesi (g",
+        ['refuseemote'] = "Emote peruutettu.",
+        ['makenearby'] = "tekee lähimmän pelaaja osallistumaan ",
+        ['camera'] = "Paina yGw käyttääksesi kameran salamaa.",
+        ['makeitrain'] = "Paina yGw heittääksesi rahaa.",
+        ['pee'] = "Pidä yGw pissaksesi.",
+        ['spraychamp'] = "Pidä yGw suihkutaaksesi shamppaniaa",
+        ['stun'] = "Paina yGw to 'käytä' etälamautinta.",
+        ['bound'] = "Bindata",
+        ['to'] = 'lle',
+        ['currentlyboundemotes'] = " On jo bindattuna emotehin :",
+        ['notvalidkey'] = "Ei ole käytettävä näppäin.",
+        ['keybinds'] = "🔢 Pikanäppäimet",
+        ['keybindsinfo'] = "Käytä",
+}}

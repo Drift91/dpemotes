@@ -6,9 +6,15 @@ Emotes / Animations for FiveM with human, animal and prop support 🐩
 
 * Brazilian Portuguese 🇧🇷
 
+* Czech 🇨🇿
+
+* Danish 🇩🇰
+
 * Dutch 🇳🇱
 
-* English 🇺🇲
+* English 🇬🇧
+
+* Finnish 🇫🇮
 
 * French 🇫🇷
 
