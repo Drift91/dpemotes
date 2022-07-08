@@ -22,6 +22,8 @@ Emotes / Animations for FiveM with human, animal and prop support 🐩
 
 * Italian 🇮🇹
 
+* Polish 🇵🇱
+
 * Spanish 🇪🇸
 
 * Swedish 🇸🇪
@@ -203,6 +205,8 @@ You may sell ***custom made*** animations, however the menu must remain free.
 **Q: I bought a pack of custom animations, how can I add them to your fork of dpemotes?**
 
 **A:** Usually the person who created them will provide code snippets for adding animations to dpemotes. If for whatever reason they haven't, you should contact them.
+
+We have however added code to hopefully make it a lot easier to add shared emotes.
 
 ----------------------
 
