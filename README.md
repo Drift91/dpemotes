@@ -81,7 +81,12 @@ To use the SQL features, install the [oxmysql](https://github.com/overextended/o
 
 | | | |
 |-|-|-|
-| <img src="screenshots/cb_before.jpg" width="250"> | <img src="screenshots/cp_after.jpg" width="250"> | <img src="screenshots/umbrella.jpg" width="250"> |
+| <img src="screenshots/menu.jpg" width="250"> | <img src="screenshots/umbrella.jpg" width="250"> | <img src="screenshots/flag1.jpg" width="250"> |
+| <img src="screenshots/flag2.jpg" width="250"> | <img src="screenshots/flag3.jpg" width="250"> | <img src="screenshots/flag4.jpg" width="250"> |
+| <img src="screenshots/flag5.jpg" width="250"> | <img src="screenshots/flag6.jpg" width="250"> | <img src="screenshots/flag7.jpg" width="250"> |
+| <img src="screenshots/flag8.jpg" width="250"> | <img src="screenshots/flag9.jpg" width="250"> | <img src="screenshots/boop.jpg" width="250"> 
+| <img src="screenshots/cb_before.jpg" width="250"> | <img src="screenshots/cp_after.jpg" width="250"> 
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -94,6 +99,31 @@ To use the SQL features, install the [oxmysql](https://github.com/overextended/o
 * [Enforce gamebuild to latest build](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977) for all emotes and props to work correctly
 
 * start dpemotes
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Shared emotes 👩🏻‍❤️‍💋‍👨🏼
+
+Emotes will work with either `SyncOffsetFront` or `Attachto`.
+
+- If it is with `SyncOffsetFront`, then the offset used is the one of the emote the player started.<br/>
+For example, if player one starts the emote `handshake`, then player one will have the SyncOffsetFront but not the other player.
+
+
+- If it is with `Attachto`, then it'll either be player one's data used for attaching, or the player two's data.<br/>
+For example, if player one start the emote carry, then the other player will be attached but not the player one because Attachto is set in `carry2` and not `carry`.<br/>
+- If player one starts the emote `carry2`, then player one will be attached and not the other player.
+it's the player who start the animation who will in most cases be moved
+
+
+*Special case, if both emote have the `Attachto` then only the player who started the emote will be attached.*
+
+You can find a list of ped bones to attach the other player here: [Ped Bones](https://wiki.rage.mp/index.php?title=Bones)
+
+Using the website provided above, enter the bone ID, ie `1356` and not 111, which is the Bone Index.
+
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -119,7 +149,7 @@ To use the SQL features, install the [oxmysql](https://github.com/overextended/o
 --------------------------------------------------------
 
 
-# Additional Instructions 
+# Additional Instructions ⚙️
 
 [Please check the fivem forum thread](https://forum.fivem.net/t/dpemotes-356ish-emotes-usable-while-walking-props-and-more/843105)
 
@@ -136,7 +166,7 @@ To use the SQL features, install the [oxmysql](https://github.com/overextended/o
 
 ----------------------
 
-# FAQs
+# FAQs 🗨️
 
 **Q: Why do some emotes not work with females?**
 
@@ -181,5 +211,30 @@ You may sell ***custom made*** animations, however the menu must remain free.
 **A:** No idea, but apparently only the server owner can 🤷🏻‍♂️ Google exist; Maybe contact the creator.
 
 ----------------------
+
+**Q: How do Shared Emotes work?**
+
+**A:** Please see the Shared Emotes section of this ReadMe for more information.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Credits 🤝
+
+This script is where it is today because of the amazing contributions made by the following people: 
+
+- Thank you to [tigerle_studios](https://forum.cfx.re/u/tigerle_studios) for providing the additional code required to make Shared Emotes work
+
+- Thank you to [SMGMissy](https://forum.cfx.re/u/smgmissy/) for assisting with custom pride flags and how to stream them
+
+- Thank you to [MissSnowie](https://www.gta5-mods.com/users/MissySnowie) for the custom poses and emotes
+
+- A huge thank you to [Kibook](https://github.com/kibook) for the addition of the Animal Emotes sub menu
+
+- Thank you to [AvaN0x](https://github.com/AvaN0x) for reformatting and assisting with code and additional features
+
+- Thank you to you, the community for being patient, showing love and appreciation, and for providing translations. 
+
+You pay a big role in keeping this script alive and we could not do it without you 🙏
+
 
 

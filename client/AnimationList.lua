@@ -222,27 +222,42 @@ DP.Shared = {
     }},
     ["slapped"] = { "melee@unarmed@streamed_variations", "victim_takedown_front_slap", "Slapped", "slap" },
     ["slapped2"] = { "melee@unarmed@streamed_variations", "victim_takedown_front_backslap", "Slapped 2", "slap2" },
-    ["receiveblowjob"] = { "misscarsteal2pimpsex", "pimpsex_punter", "Receive Blowjob", "Give Blowjob", AnimationOptions = {
+    ["receiveblowjob"] = { "misscarsteal2pimpsex", "pimpsex_punter", "Receive Blowjob", "giveblowjob", AnimationOptions = {
         EmoteMoving = false,
         EmoteDuration = 30000,
         SyncOffsetFront = 0.63
     }},
-    ["giveblowjob"] = { "misscarsteal2pimpsex", "pimpsex_hooker", "Give Blowjob", "Receive Blowjob", AnimationOptions = {
+    ["giveblowjob"] = { "misscarsteal2pimpsex", "pimpsex_hooker", "Give Blowjob", "receiveblowjob", AnimationOptions = {
         EmoteMoving = false,
         EmoteDuration = 30000,
         SyncOffsetFront = 0.63
     }},
-    ["streetsexmale"] = { "misscarsteal2pimpsex", "shagloop_pimp", "Street Sex Male", "Street Sex Female", AnimationOptions = {
+    ["streetsexmale"] = { "misscarsteal2pimpsex", "shagloop_pimp", "Street Sex Male", "streetsexfemale", AnimationOptions = {
         EmoteMoving = false,
         EmoteLoop = true,
         SyncOffsetFront = 0.50
     }},
-    ["streetsexfemale"] = { "misscarsteal2pimpsex", "shagloop_hooker", "Street Sex Female", "Street Sex Male", AnimationOptions = {
+    ["streetsexfemale"] = { "misscarsteal2pimpsex", "shagloop_hooker", "Street Sex Female", "streetsexmale", AnimationOptions = {
         EmoteMoving = false,
         EmoteLoop = true,
-        SyncOffsetFront = -0.50
+        SyncOffsetFront = 0.50
     }},
-
+    ["carry"] = { "missfinale_c2mcs_1", "fin_c2_mcs_1_camman", "Carry", "carry2", AnimationOptions = {
+        EmoteMoving = true,
+        EmoteLoop = true,
+    } },
+    ["carry2"] = { "nm", "firemans_carry", "Be carried", "carry", AnimationOptions = {
+        EmoteMoving = false,
+        EmoteLoop = true,
+        Attachto = true,
+        bone = 0,
+        xPos = 0.27,
+        yPos = 0.10,
+        zPos = 0.60,
+        xRot = 0.0,
+        yRot = 0.0,
+        zRot = 10.0,
+    } },
 }
 
 
